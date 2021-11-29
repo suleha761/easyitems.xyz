@@ -1,4 +1,4 @@
-name: Build Dengan Cron
+name: Auto Sultan
 on:
   schedule:
     - cron: "0 0 * * *"
