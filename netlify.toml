@@ -8,7 +8,11 @@ command = "hugo"
 	[plugins.inputs]
 
 	# The base url of your site (optional, default = main URL set in Netlify)
-	baseUrl = "https://easyitems.xyz"
+	baseUrl = [
+		"https://easyitems.xyz",
+		"https://descuento.easyitems.xyz",
+		"https://precio.easyitems.xyz"
+	]
 
 	# Path to the sitemap URL (optional, default = /sitemap.xml)
 	sitemapPath = "/sitemap.xml"
