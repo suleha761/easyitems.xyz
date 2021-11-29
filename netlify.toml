@@ -8,14 +8,10 @@ command = "hugo"
 	[plugins.inputs]
 
 	# The base url of your site (optional, default = main URL set in Netlify)
-	baseUrl = "https://easyitems.xyz"
-	baseUrl = "https://precio.easyitems.xyz"
 	baseUrl = "https://descuento.easyitems.xyz"
 	
 
 	# Path to the sitemap URL (optional, default = /sitemap.xml)
-	sitemapPath = "/sitemap.xml"
-	sitemapPath = "/preciositemap.xml"
 	sitemapPath = "/descuentositemap.xml"
 
 	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
